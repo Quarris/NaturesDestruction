@@ -1,0 +1,48 @@
+{
+    "name": "Mechanist's Stabilizer",
+    "icon": "naturesdestruction:explosion_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:potion_generator",
+    "pages": [
+        {
+            "type": "text",
+            "text": "It turns out that explosions cause instability in the $(aura) around. This instability leads to $(thing)fluctuations$() which on their own can quickly stabilize without anyone noticing. Those fluctuations can be collected by the $(item)Mechanist's Stabilizing Apparatus$() to convert it to $(aura). $(p) The instructions as to how to build one can be found on the next page."
+        },
+        {
+            "type": "text",
+            "text": "$(thing)Any$() kind of explosion can cause instability in the $(aura) around, however the amount of fluctuation that an explosion causes changes depending on its $(thing)source$(). A simple man-made explosion appears to be pretty weak in comparison to more natural ones created by unstable and dangerous creatures. $(p) Also it is important to note that even though the fluctuations last for a short time and the $(item)Mechanist's Stabilizing Apparatus$() can"
+        },
+        {
+            "type": "text",
+            "text": "use majority of them at once, it is not able to convert the entire amount collected into $(aura) in one go but instead will do so in small chunks. If the apparatus $(thing)managed$() to collect the fluctuations caused by the instability from the explosion it will $(thing)neutralize$() the explosion. The $(item)Mechanist's Stabilizing Apparatus$() also has limited amount of fluctuation storage while it converts it into $(aura) which means that the apparatus is $(thing)unable$() to collect the fluctuations while it is $(thing)full$()."
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesdestruction:explosion_stabilizer",
+            "text": "Creating the $(item)Mechanist's Stabilizing Apparatus$() with the $(item)Explosion Stabilizer$() in the center"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesdestruction:explosion_generator",
+            "text": "Creating the $(item)Explosion Stabilizer$()"
+        },
+        {
+            "type": "text",
+            "text": "The main purpose of the $(item)Mechanist's Stabilizing Apparatus$() is to convert fluctuations caused by instability from explosions into $(aura) around. That being said, the amount of fluctuations that the apparatus can store is not large and can be improved upon. For that there exists a $(item)Fluctuation Capacitor$()."
+        },
+        {
+            "type": "text",
+            "text": "Using the instability caused by explosion, although smart and somewhat effective, can be very slow. The rate at which the $(item)Mechanist's Stabilizing Apparatus$() is able to convert the fluctuations is quite $(thing)slow$(). A $(item)Conversion Catalyst$() will be able $(thing)speed up$() the conversion by a drastic amount, yielding far better results. $(p) For either of the upgrades all that needs to be done is apply the machine below the $(item)Explosion Stabilizer$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesdestruction:explosion_upgrade_capacity",
+            "text": "Creating the $(item)Fluctuation Capacitor$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesdestruction:explosion_upgrade_speed",
+            "text": "Creating the $(item)Conversion Catalyst$()"
+        }
+    ]
+}

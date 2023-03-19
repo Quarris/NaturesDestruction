@@ -1,0 +1,21 @@
+{
+    "name": "Potential Launchers",
+    "icon": "naturesdestruction:fireball_launcher",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:potion_generator",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Learning how to $(thing)harness$() the explosion is the first step to conquering destruction! Producing explosions is a different task but can be done by examining current applications. $(br)There are two $(item)launchers$() which exist to mimic such specific applications. These launchers can create $(thing)fireballs$() similar to those of the $(thing)Ghast$() and the $(thing)Blaze$()."
+        },
+        {
+            "type": "text",
+            "text": "First, there is the $(item)Pew Pew Launcher$(), able to create $(thing)small fireballs$() which can set things on $(thing)fire$() similar to that of a $(thing)Blaze$(). $(br) The second is the $(item)Boom Boom Launcher$(), allowing the user to create $(thing)small scale explosions$() comparable to that of the $(thing)Ghast$(). $(br) Both require $(aura) to be used from a local $(item)Aura Cache$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesdestruction:fireball_launcher",
+            "recipe2": "naturesdestruction:big_fireball_launcher"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "extend": "naturesaura:book",
+    "advancement_namespaces": [
+        "naturesdestruction"
+    ]
+}

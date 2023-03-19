@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.quarris.naturesdestruction.NaturesDestruction.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "NaturesDestruction.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
